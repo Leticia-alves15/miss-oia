@@ -6,62 +6,62 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Se vocẽ foc?",
+        enunciado: "Se você fosse governante, qaul seria a sua primeira medida contra o desmatamento ilegal?",
         alternativas: [
             {
-                texto: "Isso é assustador!",
-                afirmacao: "afirmacao"
+                texto: "Aumento da fiscalização em capo",
+                afirmacao: "Você puniria os infratores radpidamente, impedindo a destruição antes que ela aumente"
             },
             {
-                texto: "Isso é maravilhoso!",
-                afirmacao: "afirmacao"
+                texto: "Criação de reservas protegidas",
+                afirmacao: "Pois áreas demarcadas legalmente sofrem menos invasões assim protegendo a biodiversidade"
             }           
             
         ]
     },
     {
-        enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial (IA), uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre elaIA. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de tecnologia em sala de aula. Qual atitude você toma?",
+        enunciado: "Como vocẽ incentivaria os fazendeiros a não desmaterem?"
         alternativas: [
             {
-                texto:"Utilizar uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento",
-                afirmacao:"afirmacao"
+                texo:" Oferendo crédito de carbono."
+                afirmacao:"Assim, o produto ganharia dinheiro direto apenas por manter a floresta em pé."
             },
             {
-                texto: "Escrever o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-                afirmacao:"afirmacao"
+                texto: "Reduzindo os impostos de quem protege",
+                afirmacao:"Você iria premiar quem cumprise a regra cumpri-se a lei tornado a preservação mais vantagosa doque a destruição."
             }
         ]
     },
     {
-        enunciado: "Após a elaboração do trabalho, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado:"Como vocẽ mudaria a educação escolar para ajudar as florestas?",
         alternativas: [
             {
-                texto:"Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
-                afirmacao:"afirmacao"
+                texto:"Criando aulas práticas sobre o plantio ",
+                afirmacao:"Assim vocẽ conectaria as crianças com a terra desde de cedo."
             },
             {
-                texto:"Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-                afirmacao:"afirmacao"
-            }
-            
-        ]
-    },
-    {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
-        alternativas: [
-            {
-                texto:"Criar uma imagem utilizando uma plataforma de design como o Paint.",
-                afirmacao:"afirmacao"
-            },
-            {
-                texto:"Criar uma imagem utilizando um gerador de imagem de IA.",
-                afirmacao:"afirmacao"
+                texto:"Ensinado consumo consciente.",
+                afirmacao:"Vocẽ mostraria como nossas compras diárias impactam no meio ambiente."
             }
             
         ]
     },
     {
-        enunciado: " Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda de uma IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz?",
+        enunciado: "Você é dono de uma fazendana amazônia e quer aumentar seus lucros. Oque você faria?",
+        alternativas: [
+            {
+                texto:"Você desmata a floresta para plantar mais e ganhar dinheiro mais rápido.",
+                afirmacao:"Você ganha dinheiro rápido, mais esgota o solo em poucos anos."
+            },
+            {
+                texto:"Você preserva a floresta e lucra vendendo crédito de carbono.",
+                afirmacao:"Assim, mantendo lucros seguros e não desmatando o solo"
+            }
+            
+        ]
+    },
+    {
+        enunciado: "Você governa um estado e precisa  ",
         alternativas: [
             {
                 texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
